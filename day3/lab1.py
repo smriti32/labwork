@@ -29,7 +29,7 @@
 # else:
 #     print("{0} is a odd number".format(a))
 
-# question4
+# # question4
 # a=int(input("Enter the first number:"))
 # b=int(input("Enter the second number:"))
 # c=int(input("Enter the third number:"))
@@ -55,6 +55,17 @@
 # print("The last digit in the given number %d = %d"%(a,last_digit))
 
 # question 7
-a=float(input("Enter the number:"))
-print(a-int(a))
+# a=float(input("Enter the number:"))
+# print(a-int(a))
+
+# question 8
+number=int(input("NUmber:"))
+total=0
+while number>0:
+    digits=number%10
+    total=total+digits
+    number=number//10
+print("The sum of digits of the number enter is", total)
+
+
 
